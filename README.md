@@ -1,7 +1,7 @@
 # pico8-dev-tools
 My dev work flow to make pico-8 dev more sane.  Saner.  A little less retro.  You know what I mean.
 
-When I write game I base them around states.  I have a global state variable that holds and table with a update and draw so my _update and _draw methods look like
+When I write game I base them around states.  I have a global state variable that holds a table with a update and draw function so my _update and _draw methods look like
 
 ```lua
 function _update()
@@ -22,7 +22,7 @@ I also have a library of useful functions (screen shake, screen transitions etc)
 ```
 
 .
-├── global_config.json
+├── .weaver_global.json
 ├── carts
 │   └── loa
 │       └── config.json
